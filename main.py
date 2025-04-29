@@ -4,8 +4,8 @@ from starlette.middleware.cors import CORSMiddleware
 from db import init_database
 from . import login, location, record
 
-WECHAT_APP_ID = 'wxff510f8e3bfa2d82'
-WECHAT_APP_SECRET = '8a16e5c72a5b89943b7863581ee7e558'
+WECHAT_APP_ID = 'wx123123'# 此处换为小程序的APPID
+WECHAT_APP_SECRET = '123123123123'# 此处换为小程序的APP Secret
 WECHAT_SESSION = 'https://api.weixin.qq.com/sns/jscode2session'
 
 app = FastAPI()
